@@ -1,0 +1,34 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: $primary-color;
+}
+h1 {
+  color: $heading-color;
+  font-size: 3rem;
+}
+
+h3 {
+  color: $heading-color;
+}
+
+button {
+  background-color: $heading-color;
+  color: $primary-color;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+a,
+p {
+  color: $paragraph-color;
+}

@@ -1,0 +1,46 @@
+.home {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 1rem;
+
+  img {
+    border-radius: 50%;
+    width: 12%;
+    height: 12%;
+  }
+  h3 {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    color: #bbbfca;
+  }
+  h1 {
+    margin: 0.5rem auto;
+  }
+  p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    img {
+      width: 30%;
+      height: 30%;
+    }
+    h3 {
+      font-size: 1.2rem !important;
+    }
+    h1 {
+      font-size: 1.4rem !important;
+    }
+    p {
+      font-size: 1rem;
+      margin: 1.5rem auto;
+    }
+    button {
+      font-size: 0.9rem;
+      padding: 1rem 2rem;
+    }
+  }
+}
