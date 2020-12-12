@@ -1,0 +1,47 @@
+h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 4.5rem 1rem;
+
+  .about {
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+    }
+    h3 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+    }
+    p {
+      text-align: center;
+      line-height: 2rem;
+      width: 90%;
+      margin: 1rem auto;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 2.3rem;
+  }
+  .about-wrapper {
+    grid-template-columns: 1fr;
+    margin-top: -3rem;
+    .about {
+      margin: 1rem 0;
+      padding: 0 1.5rem;
+      p {
+        width: 100%;
+      }
+    }
+  }
+}
