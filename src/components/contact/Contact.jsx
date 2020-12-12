@@ -12,7 +12,7 @@ export default function Contact() {
                         <input type="email" placeholder="Email" required />  
                     </div>
                     <div className="input-wrapper">
-                        <input type="tel" placeholder="Phone" />
+                        <input type="tel" placeholder="Phone (Optional)" />
                     </div>
                     <div className="input-wrapper">
                         <textarea placeholder="Message"></textarea>
