@@ -3,10 +3,7 @@ import {BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 
 import Navbar from './nav/Navbar';
 import Home from './home/Home'
-import Projects from './projects/ProjectsWrapper';
-import Skills from './skills/SkillsWrapper'
-import Contact from './contact/Contact'
-
+import Blog from './blog/BlogsWrapper'
 
 export default function Routing() {
     return (
@@ -15,9 +12,7 @@ export default function Routing() {
                 <Navbar />
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/contact" exact component={Contact} />
-                    <Route path="/projects" exact component={Projects} /> 
-                    <Route path="/skills" exact component={Skills}  />
+                    <Route path="/blog" exact component={Blog} />
                 </Switch>
             </Router>
         </div>

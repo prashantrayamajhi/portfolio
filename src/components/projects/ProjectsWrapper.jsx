@@ -42,7 +42,7 @@ export default function ProjectsWrapper() {
     })
     return (
         <>
-        <h2>My Projects</h2>
+        <h2 id="projects">My Projects</h2>
         <div className="project-wrapper">
             {AllProjects}
         </div>

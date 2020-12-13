@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.scss';
 export default function Contact() {
     return (
-        <form className="form">
+        <form className="form" id="contact">
             <div className="container">
                 <h1>Get in touch!</h1>
                     <div className="input-wrapper">

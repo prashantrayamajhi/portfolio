@@ -1,6 +1,7 @@
 h2 {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
+  font-size: 2rem;
 }
 .project-wrapper {
   display: grid;
@@ -55,6 +56,7 @@ h2 {
 @media (max-width: 1000px) {
   h2 {
     font-size: 2rem;
+    margin-top: 4rem;
   }
   .project-wrapper {
     padding: 3rem 2rem;
@@ -73,6 +75,7 @@ h2 {
 
 @media (max-width: 650px) {
   h2 {
+    margin-top: 4rem;
     font-size: 1.7rem;
   }
   .project-wrapper {

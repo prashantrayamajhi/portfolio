@@ -1,7 +1,8 @@
 .form {
+  margin-top: 4rem;
   .container {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     max-width: 800px;
     padding: 1.5rem 1rem 1rem 1rem;
@@ -13,7 +14,7 @@
       margin-top: 1.5rem;
       input,
       textarea {
-        width: 90%;
+        width: 100%;
         color: white;
         font-size: 1.2rem;
         padding: 0.5rem;
@@ -21,7 +22,7 @@
       }
     }
     button {
-      width: 90%;
+      width: 100%;
       margin: auto;
       margin-top: 1.5rem;
       font-size: 1.2rem;
@@ -33,9 +34,10 @@
 
 @media (max-width: 800px) {
   .form {
+    margin-top: 2rem;
     .container {
       h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
       .input-wrapper {
         input,
