@@ -19,11 +19,11 @@ export default function Navbar() {
             </div>
 
             <ul className={`nav-list ${open ? 'responsive' : ''}`}>
-                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/#skills">Skills</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/#projects">Projects</a></li>
-                    <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
-                    <li className="nav-item"><a className="nav-link" href="/#contact">Contact</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/" onClick={onMenuClick}>Home</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/#skills" onClick={onMenuClick}>Skills</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/#projects" onClick={onMenuClick}>Projects</a></li>
+                    <li className="nav-item"><Link className="nav-link" to="/blog" onClick={onMenuClick}>Blog</Link></li>
+                    <li className="nav-item"><a className="nav-link" href="/#contact" onClick={onMenuClick}>Contact</a></li>
             </ul>
             <div className="hamburger">
                 <img onClick={onMenuClick} alt="" src="https://www.flaticon.com/svg/static/icons/svg/1636/1636053.svg" />
