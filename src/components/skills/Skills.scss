@@ -2,6 +2,7 @@
   margin-top: 5rem;
   h2 {
     font-size: 2rem;
+    font-weight: 400;
   }
   .skills-cards {
     width: 80%;
@@ -24,11 +25,12 @@
       }
       ul {
         background-color: #111111;
-        padding-left: 2rem;
+        list-style: none;
+        text-align: center;
+
         li {
           margin-left: 2rem;
           background-color: #111111;
-          //   list-style: none;
           margin: 0.5rem 0;
           color: #cdc9c3;
         }

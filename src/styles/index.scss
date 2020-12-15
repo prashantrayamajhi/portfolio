@@ -8,6 +8,9 @@
   background-color: $primary-color;
   scroll-behavior: smooth;
 }
+body {
+  position: relative;
+}
 h1 {
   color: $heading-color;
   font-size: 3rem;

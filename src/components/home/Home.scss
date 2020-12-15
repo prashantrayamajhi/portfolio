@@ -22,6 +22,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .home {
+    padding-top: 8rem !important;
+  }
+}
+
 @media (max-width: 800px) {
   .home {
     img {
